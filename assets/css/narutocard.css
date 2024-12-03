@@ -1,0 +1,75 @@
+.naruto_caracter {
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    padding: 2rem 1rem;
+    border-radius: 1rem;
+    background-color: #FF8C00;
+    width: 11.25rem;
+}
+
+.naruto_caracter#time7{
+    background-color: #7b490c;
+}
+
+.naruto_caracter#time10{
+    background-color: #680c0c;
+}
+
+.naruto_caracter .number {
+    color: #fff;
+    opacity: .5;
+    text-align: right;
+}
+
+.naruto_caracter .name {
+    color: #fff;
+    margin-bottom: 0;
+}
+
+.naruto_caracter .detail{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.naruto_caracter .detail .types {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.naruto_caracter .detail .types .type {
+    background-color: rgb(26, 121, 121);
+    color:#fff;
+    padding: .25rem .5rem;
+    margin: .25rem 0;
+    font-size: .625rem;
+    border-radius: 1rem;
+    font-size: 12px;
+}
+
+.naruto_caracter .detail img {
+    width: 100%;
+    height: 9.360rem;
+    align-self: flex-start;
+}
+
+@media screen and (min-width: 380px) {
+    .personagens_naruto {
+        grid-template-columns:1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 576px) {
+    .personagens_naruto {
+        grid-template-columns:1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .personagens_naruto {
+        grid-template-columns:1fr 1fr 1fr 1fr;
+    }
+}
